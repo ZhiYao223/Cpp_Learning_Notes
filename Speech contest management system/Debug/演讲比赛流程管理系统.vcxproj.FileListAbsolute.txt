@@ -1,0 +1,2 @@
+D:\Learn Zone\C++ files\Practical_Grammar\演讲比赛流程管理系统\Debug\演讲比赛流程管理系统.exe
+D:\Learn Zone\C++ files\Cpp_PrimaryStage\演讲比赛流程管理系统\Debug\演讲比赛流程管理系统.exe
