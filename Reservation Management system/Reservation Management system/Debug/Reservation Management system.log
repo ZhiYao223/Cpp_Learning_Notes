@@ -1,0 +1,7 @@
+﻿  student.cpp
+F:\Learn files\C++ files\Github Repository\Cpp_Learning_Notes\Reservation Management system\Reservation Management system\student.cpp(11,1): error C2511: “Student::Student(int,std::string,std::string)”:“Student”中没有找到重载的成员函数
+F:\Learn files\C++ files\Github Repository\Cpp_Learning_Notes\Reservation Management system\Reservation Management system\student.h(7): message : 参见“Student”的声明
+F:\Learn files\C++ files\Github Repository\Cpp_Learning_Notes\Reservation Management system\Reservation Management system\student.cpp(41,1): error C2084: 函数“void Student::applyOrder(void)”已有主体
+F:\Learn files\C++ files\Github Repository\Cpp_Learning_Notes\Reservation Management system\Reservation Management system\student.cpp(22): message : 参见“applyOrder”的前一个定义
+  teacher.cpp
+  正在生成代码...

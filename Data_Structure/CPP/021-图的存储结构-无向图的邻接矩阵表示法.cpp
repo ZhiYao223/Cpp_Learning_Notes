@@ -81,7 +81,6 @@ int LocateVex(AMGraph G, VerTexType u)
 
 int main021()
 {
-
 	system("pause");
 	return 0;
 }

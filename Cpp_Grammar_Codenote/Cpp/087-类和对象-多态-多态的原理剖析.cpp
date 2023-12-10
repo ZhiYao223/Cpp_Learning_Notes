@@ -16,7 +16,7 @@ class Animal
 public:
 	//虚函数
 	//加上virtual后，变成四个字节，没加virtual是空类，占1个字节
-	virtual void speak()  //不加virtual"动物在说话",加了virtual"小猫在说话"   非静态成员函数不属于类的对象
+	virtual void speak()  //加virtual"动物在说话",不加virtual"小猫在说话"   非静态成员函数不属于类的对象
 	{
 		cout << "动物在说话" << endl;
 

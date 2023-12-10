@@ -8,7 +8,6 @@ struct PTNode
 	int parent;		//双亲位置
 };
 
-
 //树结构
 #define Max_Tree_Size 100
 struct PTree
@@ -17,10 +16,8 @@ struct PTree
 	int r, n;			//根结点的位置和结点个数
 };
 
-
 int main18()
 {
-
 	system("pause");
 	return 0;
 }
