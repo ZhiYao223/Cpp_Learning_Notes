@@ -3,7 +3,7 @@
 //默认构造
 Student::Student()
 {
-
+	
 }
 
 //有参构造(学号、姓名、密码)
@@ -37,7 +37,7 @@ void Student::showAllOrder()
 }
 
 //取消预约
-void Student::applyOrder()
+void Student::cancelOrder()
 {
 
 }

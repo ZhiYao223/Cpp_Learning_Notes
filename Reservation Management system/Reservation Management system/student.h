@@ -8,13 +8,13 @@ class Student :public Identity
 {
 public:
 	//学号
-	int m_id;
+	int m_id = 0;
 
 	//默认构造函数
 	Student();
 
 	//有参构造(学号、姓名、密码)
-	Student(int id, int name, string pwd);
+	Student(int id, string name, string pwd);
 
 	//菜单界面,父类中有纯虚函数，子类中必须重写
 	virtual void operMenu();
@@ -27,5 +27,8 @@ public:
 
 	//查看所有预约
 	void showAllOrder();
+
+	//取消预约
+	void cancelOrder();
 
 };
