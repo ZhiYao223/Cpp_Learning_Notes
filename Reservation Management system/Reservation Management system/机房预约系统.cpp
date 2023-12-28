@@ -64,11 +64,22 @@ void LoginIn(string fileName, int type)
 				//ifs.close();
 				return;
 			}				
-
 		}
 	}
 	else if (type == 2) {
 		//教师身份验证
+		int fId;
+		string fName;
+		string fPwd;
+		while (ifs >> fId && ifs >> fName && ifs >> fPwd) {
+			if (id == fId && name == fName && pwd == fPwd) {
+				cout << "教师验证登陆成功!" << endl;
+				system("pause");
+				system("cls");
+				person = new Teacher(id, name, pwd);
+				return;
+			}
+		}
 	}
 	else if (type == 3) {
 		//管理员身份验证
