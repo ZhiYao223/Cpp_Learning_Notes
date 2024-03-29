@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 //1.构造函数的分类及调用
-//按照参数分类	无惨构造(默认构造)  和  有参构造
+//按照参数分类	无参构造(默认构造)  和  有参构造
 //按照类型分类	普通构造     拷贝构造
 class People1
 {
@@ -48,7 +48,7 @@ void test2()
 	//People1 p2 = People1(10);
 	//People1 p3 = People1(p2);
 
-	People1(10);//当改行单独写时，就是匿名对象：当前执行结束后，系统会立即回收掉匿名对象马上析构
+	People1(10);//当该行单独写时，就是匿名对象：当前执行结束后，系统会立即回收掉匿名对象马上析构
 	cout << "aaaaa" << endl;
 	//不要利用拷贝构造函数初始化匿名对象  编译器会认为Person(p3) == Person p3; 对象声明
 	//Person(p4);

@@ -8,7 +8,7 @@
 #include <iostream>
 using namespace std;
 
-void func()                                          //函数一
+void func()                     //函数一
 {
 	cout << "func的调用!" << endl;
 }

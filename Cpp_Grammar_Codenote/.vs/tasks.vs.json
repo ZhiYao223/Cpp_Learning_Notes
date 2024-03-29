@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "\u4EFB\u52A1-001- HelloWorld",
+      "appliesTo": "Cpp/001- HelloWorld.cpp",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "\u4EFB\u52A1-Cpp_Grammar",
+      "appliesTo": "Cpp_Grammar.sln",
+      "type": "launch"
+    }
+  ]
+}

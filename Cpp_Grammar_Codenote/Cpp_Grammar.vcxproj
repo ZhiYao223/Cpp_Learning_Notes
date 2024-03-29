@@ -29,26 +29,26 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -88,12 +88,20 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\Learn Zone\C++ files\Cpp Primary Stage\Cpp_Learning_Notes\Cpp_Grammar_Codenote\Head;D:\Learn Zone\C++ files\Cpp Primary Stage\Cpp_Learning_Notes\Cpp_Grammar_Codenote\Cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Learn files\C++ files\Github Repository\Cpp_Learning_Notes\Cpp_Grammar_Codenote\Head;D:\Learn Zone\C++ files\Cpp Primary Stage\Cpp_Learning_Notes\Cpp_Grammar_Codenote\Head;D:\Learn Zone\C++ files\Cpp Primary Stage\Cpp_Learning_Notes\Cpp_Grammar_Codenote\Cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
+    <CustomBuildStep>
+      <Command>
+      </Command>
+    </CustomBuildStep>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -174,7 +182,9 @@
     <ClCompile Include="Cpp\026-二维数组数组名与sizeof运用.cpp" />
     <ClCompile Include="Cpp\027-二维数组考试成绩统计案例.cpp" />
     <ClCompile Include="Cpp\028-函数定义、声明、调用、形参实参.cpp" />
-    <ClCompile Include="Cpp\029-函数的分文件编写.cpp" />
+    <ClCompile Include="Cpp\029-函数的分文件编写.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Learn files\C++ files\Github Repository\Cpp_Learning_Notes\Cpp_Grammar_Codenote\Head;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
     <ClCompile Include="Cpp\029.1-swap函数.cpp" />
     <ClCompile Include="Cpp\030-指针的定义和使用.cpp" />
     <ClCompile Include="Cpp\031-指针所占内存空间.cpp" />
@@ -207,10 +217,10 @@
     <ClCompile Include="Cpp\058-类和对象-封装-C++中class和struct的区别.cpp" />
     <ClCompile Include="Cpp\059-类和对象-封装-成员属性私有化.cpp" />
     <ClCompile Include="Cpp\060-类和对象-封装-设计案例1-长方体类.cpp" />
-    <ClCompile Include="Cpp\061-类和对象-封装=点和圆设计案例.cpp" />
+    <ClCompile Include="Cpp\061-类和对象-封装-点和圆设计案例.cpp" />
     <ClCompile Include="Cpp\062.1-点类point分件编写.cpp" />
     <ClCompile Include="Cpp\062.2-圆类circle分件编写.cpp" />
-    <ClCompile Include="Cpp\062.3-类和对象-封装-61点和圆案例的类拆分编写.cpp" />
+    <ClCompile Include="Cpp\062.3-类和对象-封装-点和圆案例的类拆分编写.cpp" />
     <ClCompile Include="Cpp\063-类和对象-对象特性-构造函数析构函数.cpp" />
     <ClCompile Include="Cpp\064-类和对象-对象特性-函数分类及调用.cpp" />
     <ClCompile Include="Cpp\065-类和对象-对象特性-深拷贝与浅拷贝.cpp" />
@@ -261,7 +271,9 @@
     <ClCompile Include="Cpp\107-模板-类模板与继承.cpp" />
     <ClCompile Include="Cpp\108-模板-类模板成员函数类外实现.cpp" />
     <ClCompile Include="Cpp\109-模板-类模板分文件编写.cpp" />
-    <ClCompile Include="Cpp\109-类模板分文件编写Person.cpp" />
+    <ClCompile Include="Cpp\109-类模板分文件编写Person.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Learn files\C++ files\Github Repository\Cpp_Learning_Notes\Cpp_Grammar_Codenote\Head;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
     <ClCompile Include="Cpp\110-模板-类模板与友元.cpp" />
     <ClCompile Include="Cpp\111-模板-类模板案例-数组类封装.cpp" />
     <ClCompile Include="Cpp\112-STL初识-STL的基本概念.cpp" />
@@ -345,6 +357,7 @@
     <ClCompile Include="Cpp\187-常用集合算法-set_intersection.cpp" />
     <ClCompile Include="Cpp\188-常用集合算法-set_union.cpp" />
     <ClCompile Include="Cpp\189-常用集合算法-set_difference.cpp" />
+    <ClCompile Include="Cpp\Test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

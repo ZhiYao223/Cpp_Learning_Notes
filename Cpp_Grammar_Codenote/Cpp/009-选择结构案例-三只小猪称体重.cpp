@@ -35,9 +35,6 @@ int main09()
 			cout << "第三只最重" << endl; 
 		}
 	
-	
-
-
 	system("pause");
 	return 0;
 }

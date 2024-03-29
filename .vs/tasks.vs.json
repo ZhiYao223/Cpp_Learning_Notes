@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "\u4EFB\u52A1-Cpp",
+      "appliesTo": "Cpp_Grammar_Codenote/Cpp/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "\u4EFB\u52A1-Test",
+      "appliesTo": "Cpp_Grammar_Codenote/Cpp/Test.cpp",
+      "type": "launch"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main1()
+int main001()
 {
 	//Day = 14;
 	const int month = 12;

@@ -212,7 +212,7 @@
     <ClCompile Include="Cpp\060-类和对象-封装-设计案例1-长方体类.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Cpp\061-类和对象-封装=点和圆设计案例.cpp">
+    <ClCompile Include="Cpp\061-类和对象-封装-点和圆设计案例.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Cpp\062.1-点类point分件编写.cpp">
@@ -221,7 +221,7 @@
     <ClCompile Include="Cpp\062.2-圆类circle分件编写.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Cpp\062.3-类和对象-封装-61点和圆案例的类拆分编写.cpp">
+    <ClCompile Include="Cpp\062.3-类和对象-封装-点和圆案例的类拆分编写.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Cpp\063-类和对象-对象特性-构造函数析构函数.cpp">
@@ -624,6 +624,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Cpp\189-常用集合算法-set_difference.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cpp\Test.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
