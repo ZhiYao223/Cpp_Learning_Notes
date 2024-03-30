@@ -626,8 +626,5 @@
     <ClCompile Include="Cpp\189-常用集合算法-set_difference.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Cpp\Test.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

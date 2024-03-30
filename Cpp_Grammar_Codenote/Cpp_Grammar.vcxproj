@@ -357,7 +357,6 @@
     <ClCompile Include="Cpp\187-常用集合算法-set_intersection.cpp" />
     <ClCompile Include="Cpp\188-常用集合算法-set_union.cpp" />
     <ClCompile Include="Cpp\189-常用集合算法-set_difference.cpp" />
-    <ClCompile Include="Cpp\Test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -6,7 +6,7 @@
 引例：定义了一个复数类，为了实现复数的加法，可以定义一个成员
 函数Add,调用它可以实现两个复数对象相加，并返回一个新的复数对象
 */
-#if 0
+#if 1
 #include <iostream>
 #include<string>
 using namespace std;

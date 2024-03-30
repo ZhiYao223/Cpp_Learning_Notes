@@ -1,2 +1,4 @@
 ﻿  Test.cpp
-  Cpp_Grammar.vcxproj -> D:\Learn files\C++ files\Github Repository\Cpp_Learning_Notes\Cpp_Grammar_Codenote\Debug\Cpp_Grammar.exe
+  LINK : 没有找到 D:\Learn files\C++ files\Github Repository\Cpp_Learning_Notes\Cpp_Grammar_Codenote\Debug\Cpp_Grammar.exe 或上一个增量链接没有生成它；正在执行完全链接
+Test.obj : error LNK2005: "public: __thiscall Student::Student(char const *,int,float)" (??0Student@@QAE@PBDHM@Z) 已经在 075-类和对象-友元类示例.obj 中定义
+D:\Learn files\C++ files\Github Repository\Cpp_Learning_Notes\Cpp_Grammar_Codenote\Debug\Cpp_Grammar.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
